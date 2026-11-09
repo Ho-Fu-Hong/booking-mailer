@@ -1,0 +1,9 @@
+smtp:
+  host: smtp-relay.londonermacao.com
+  port: 587
+  username: noreply-booking@londonermacao.com
+  password: SYNTHETIC-hW4tQ8zN2cJ6vB9e
+  from_name: The Londoner Macao Reservations
+queue:
+  table: outbound_mail
+  batch: 50
